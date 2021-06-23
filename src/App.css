@@ -13,6 +13,10 @@
   }
 }
 
+#menu {
+  text-align: left;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +39,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  background-color: #282c34;
+  color: aliceblue;
+  padding: 20px;
+  font-size: xx-large;
+  font-family: monospace;
+}
+
+.main {
+  background-color: darkgray;
+  color: aliceblue;
+  padding: 40px;
 }
